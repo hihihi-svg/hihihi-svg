@@ -1,0 +1,38 @@
+name: Generate Snake Game
+
+on:
+  schedule:
+    - cron: '30 0 * * *'  # Runs daily at 00:30 UTC
+  workflow_dispatch:  # Allows manual trigger
+
+jobs:
+  generate-snake:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write  # Important: allows the workflow to push changes
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+          ref: main  # Change to your default branch if not 'main'
+
+      - name: Generate snake animation
+        uses: Platane/snk@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            output/github-contribution-grid-snake.svg
+            output/github-contribution-grid-snake-dark.svg?palette=github-dark
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add output/*.svg
+          if ! git diff --staged --quiet; then
+            git commit -m "chore: update snake contribution animation [skip ci]"
+            git push
+          else
+            echo "No changes to commit"
+          fi
