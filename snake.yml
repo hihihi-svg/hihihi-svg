@@ -1,0 +1,54 @@
+# .github/workflows/snake.yaml
+name: Generate Snake Game
+
+on:
+  # runs daily at 00:30 UTC (change cron if you prefer)
+  schedule:
+    - cron: '30 0 * * *'
+  # allows manual trigger from Actions tab
+  workflow_dispatch:
+
+jobs:
+  generate-snake:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout (needed to commit the generated file)
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+          # if your branch is not `main`, change this ref:
+          ref: main
+
+      - name: Generate snake animation (SVG)
+        uses: Platane/snk@v3
+        with:
+          # uses repository owner by default — override if needed
+          github_user_name: ${{ github.repository_owner }}
+          # output path relative to repo root
+          output: output/github-contribution-grid-snake.svg
+          # choose palette: github, github-dark, github-light or custom
+          palette: github-dark
+          # snake color (hex without #) — example: 58A6FF
+          snake_color: 58A6FF
+          # dot color (for food/dots)
+          dot_color: 58A6FF
+          # background color (only for GIF rendering); leave empty for transparent SVG backgrounds
+          background_color: 0d1117
+          # format: svg or gif
+          format: svg
+          # max frame count (optional)
+          frames: 120
+
+      - name: Add & commit generated file
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          mkdir -p output
+          git add output/github-contribution-grid-snake.svg || true
+          # Only commit if there are changes
+          if ! git diff --staged --quiet; then
+            git commit -m "chore: update snake contribution animation [skip ci]"
+            git push
+          else
+            echo "No changes to commit"
+          fi
