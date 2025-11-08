@@ -168,7 +168,6 @@ mindmap
 <img width="98%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=hihihi-svg&theme=github_dark" />
 
 <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=hihihi-svg&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=58A6FF&text_color=c9d1d9" />
-<img width="49%" src="https://github-readme-stats.vercel.app/api/wakatime?username=hihihi-svg&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=58A6FF&text_color=c9d1d9&layout=compact" />
 
 </div>
 
