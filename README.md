@@ -115,6 +115,7 @@ mindmap
     LLM Projects
       RAG Systems
       Prompt Engineering
+      Using MCP
     ML Applications
       Predictive Models
       Neural Networks
