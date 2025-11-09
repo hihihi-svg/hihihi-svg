@@ -9,7 +9,7 @@ jobs:
   generate-snake:
     runs-on: ubuntu-latest
     permissions:
-      contents: write  # Important: allows the workflow to push changes
+      contents: write  # CRITICAL: allows the workflow to push changes
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
