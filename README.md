@@ -173,13 +173,13 @@ mindmap
 
 ## 🐍 Watch my contributions get eaten by a snake!
 <!-- Simple version -->
-![Snake animation](https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_USERNAME/main/output/github-contribution-grid-snake.svg)
+![Snake animation](https://raw.githubusercontent.com/hihihi-svg/hihihi-svg/main/output/github-contribution-grid-snake.svg)
 
 <!-- With dark mode support -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_USERNAME/main/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_USERNAME/main/output/github-contribution-grid-snake.svg">
-  <img alt="Snake animation" src="https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_USERNAME/main/output/github-contribution-grid-snake.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/hihihi-svg/hihihi-svg/main/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/hihihi-svg/hihihi-svg/main/output/github-contribution-grid-snake.svg">
+  <img alt="Snake animation" src="https://raw.githubusercontent.com/hihihi-svg/hihihi-svg/main/output/github-contribution-grid-snake.svg">
 </picture>
 ---
 
