@@ -132,7 +132,6 @@ mindmap
 <td width="50%">
 
 #### 📚 Learning Journey
-- ### 🧩 Advanced AI & Full-Stack Capabilities
 
 - 🧠 Advanced **LangGraph architectures**  
 - ⚡ Production-grade **RAG optimization**  
