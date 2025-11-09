@@ -8,9 +8,9 @@
 
 <!-- Badges -->
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=lalan&style=for-the-badge&color=58A6FF&labelColor=0d1117" alt="Profile Views">
+  <img src="https://komarev.com/ghpvc/?username=hihihi-svg&style=for-the-badge&color=58A6FF&labelColor=0d1117" alt="Profile Views">
   <a href="https://github.com/hihihi-svg">
-    <img src="https://img.shields.io/github/followers/lalan?label=Followers&style=for-the-badge&color=58A6FF&labelColor=0d1117" alt="Followers">
+    <img src="https://img.shields.io/github/followers/hihihi-svg?label=Followers&style=for-the-badge&color=58A6FF&labelColor=0d1117" alt="Followers">
   </a>
   <a href="lalanpradeep26@gmail.com">
     <img src="https://img.shields.io/badge/Email-Let's_Connect-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
