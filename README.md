@@ -66,7 +66,7 @@ print(me.expertise())
 ![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![SQL](https://img.shields.io/badge/SQL-003B57?style=for-the-badge&logo=mysql&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-003B57?style=for-the-badge&logo=postgresql&logoColor=white)
 
 
 ### 🤖 AI/ML Stack
@@ -116,20 +116,72 @@ print(me.expertise())
 
 <div align="center">
 
-```mermaid
-mindmap
-  root((Lalan's<br/>Tech Universe))
-    LLM Projects
-      RAG Systems
-      Prompt Engineering
-      MCP Servers
-    ML Applications
-      Predictive Models
-      Neural Networks
-      Data Pipelines
-    Research
-      Model Context Protocol
-```
+<table>
+<tr>
+<td align="center" colspan="4">
+<img src="https://img.icons8.com/3d-fluency/94/galaxy.png" width="60"/>
+<br><b style="font-size: 24px;">🌟 Lalan's Tech Universe 🌟</b>
+</td>
+</tr>
+<tr>
+<td align="center" width="25%" bgcolor="#1f6feb">
+<br>
+<img src="https://img.icons8.com/3d-fluency/94/bot.png" width="70"/>
+<br><br>
+<b style="font-size: 18px; color: white;">🤖 LLM Projects</b>
+<br><br>
+<p style="color: white;">
+📚 RAG Systems<br>
+✨ Prompt Engineering<br>
+🔌 MCP Servers<br>
+🧠 Fine-tuning
+</p>
+<br>
+</td>
+<td align="center" width="25%" bgcolor="#58A6FF">
+<br>
+<img src="https://img.icons8.com/3d-fluency/94/artificial-intelligence.png" width="70"/>
+<br><br>
+<b style="font-size: 18px; color: white;">⚡ ML Applications</b>
+<br><br>
+<p style="color: white;">
+📊 Predictive Models<br>
+🧬 Neural Networks<br>
+🔄 Data Pipelines<br>
+🎯 Computer Vision
+</p>
+<br>
+</td>
+<td align="center" width="25%" bgcolor="#1f6feb">
+<br>
+<img src="https://img.icons8.com/3d-fluency/94/microscope.png" width="70"/>
+<br><br>
+<b style="font-size: 18px; color: white;">🔬 Research</b>
+<br><br>
+<p style="color: white;">
+📖 Model Context Protocol<br>
+🚀 AI Optimization<br>
+💡 Novel Architectures<br>
+🔍 Performance Analysis
+</p>
+<br>
+</td>
+<td align="center" width="25%" bgcolor="#58A6FF">
+<br>
+<img src="https://img.icons8.com/3d-fluency/94/domain.png" width="70"/>
+<br><br>
+<b style="font-size: 18px; color: white;">🌐 Web Development</b>
+<br><br>
+<p style="color: white;">
+⚛️ React Applications<br>
+🐍 Flask APIs<br>
+☁️ Cloud Deployment<br>
+🔧 Full-Stack Apps
+</p>
+<br>
+</td>
+</tr>
+</table>
 
 </div>
 
