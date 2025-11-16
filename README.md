@@ -8,9 +8,9 @@
 
 <!-- Badges -->
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=lalan&style=for-the-badge&color=58A6FF&labelColor=0d1117" alt="Profile Views">
+  <img src="https://komarev.com/ghpvc/?username=hihihi-svg&style=for-the-badge&color=58A6FF&labelColor=0d1117" alt="Profile Views">
   <a href="https://github.com/hihihi-svg">
-    <img src="https://img.shields.io/github/followers/lalan?label=Followers&style=for-the-badge&color=58A6FF&labelColor=0d1117" alt="Followers">
+    <img src="https://img.shields.io/github/followers/hihihi-svg?label=Followers&style=for-the-badge&color=58A6FF&labelColor=0d1117" alt="Followers">
   </a>
   <a href="lalanpradeep26@gmail.com">
     <img src="https://img.shields.io/badge/Email-Let's_Connect-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
@@ -78,7 +78,7 @@ print(me.expertise())
 ![Keras](https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white)
 
 ### 🔥 Specializations
-<<table>
+<table>
 <tr>
 <td align="center" width="120">
 <img src="https://img.icons8.com/color/96/000000/artificial-intelligence.png" width="50"/>
@@ -140,7 +140,6 @@ mindmap
 <td width="50%">
 
 #### 📚 Learning Journey
-- ### 🧩 Advanced AI & Full-Stack Capabilities
 
 - 🧠 Advanced **LangGraph architectures**  
 - ⚡ Production-grade **RAG optimization**  
@@ -179,9 +178,15 @@ mindmap
 <img width="98%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=hihihi-svg&theme=github_dark" />
 
 <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=hihihi-svg&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=58A6FF&text_color=c9d1d9" />
-<img width="49%" src="https://github-readme-stats.vercel.app/api/wakatime?username=hihihi-svg&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=58A6FF&text_color=c9d1d9&layout=compact" />
 
 </div>
+
+## 🐍 Watch my contributions get eaten by a snake!
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/hihihi-svg/hihihi-svg/main/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/hihihi-svg/hihihi-svg/main/output/github-contribution-grid-snake.svg">
+  <img alt="Snake animation" src="https://raw.githubusercontent.com/hihihi-svg/hihihi-svg/main/output/github-contribution-grid-snake.svg">
+</picture>
 
 ---
 
