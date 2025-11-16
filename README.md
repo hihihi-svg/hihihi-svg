@@ -316,7 +316,7 @@ I'm always excited to collaborate on **AI/ML projects**, **LLM applications**, a
 
 **💼 Open to:** Research Collaborations • Deep Learning Projects • LLM Consulting • Open Source Contributions
 
-**🌟 Interests:** Large Language Models • Retrieval Augmented Generation • Neural Architecture • AI Agents • Model Context Protocol (MCP
+**🌟 Interests:** Large Language Models • Retrieval Augmented Generation • Neural Architecture • AI Agents • Model Context Protocol (MCP)
 
 </div>
 
