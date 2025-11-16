@@ -8,8 +8,9 @@
 
 <!-- Badges -->
 <p align="center">
+  <img src="https://komarev.com/ghpvc/?username=lalan&style=for-the-badge&color=58A6FF&labelColor=0d1117" alt="Profile Views">
   <a href="https://github.com/hihihi-svg">
-    <img src="https://img.shields.io/github/followers/hihihi-svg?label=Followers&style=for-the-badge&color=58A6FF&labelColor=0d1117" alt="Followers">
+    <img src="https://img.shields.io/github/followers/lalan?label=Followers&style=for-the-badge&color=58A6FF&labelColor=0d1117" alt="Followers">
   </a>
   <a href="lalanpradeep26@gmail.com">
     <img src="https://img.shields.io/badge/Email-Let's_Connect-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
@@ -34,8 +35,9 @@ class Lalan:
     def expertise(self):
         return {
             "ai_ml": ["TensorFlow", "Scikit-learn", "Deep Learning"],
-            "llm_stack": ["LangChain", "LangGraph", "RAG Pipelines"],
+            "llm_stack": ["LangChain", "LangGraph", "RAG Pipelines", "MCP Servers"],
             "languages": ["Python", "C++", "C", "HTML"],
+            "protocols": ["Model Context Protocol (MCP)"],
             "mindset": "Ship fast, iterate faster"
         }
     
@@ -72,6 +74,7 @@ print(me.expertise())
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
 ![LangChain](https://img.shields.io/badge/🦜_LangChain-121212?style=for-the-badge)
 ![LangGraph](https://img.shields.io/badge/🕸️_LangGraph-2C2C2C?style=for-the-badge)
+![MCP](https://img.shields.io/badge/🔌_MCP-4A90E2?style=for-the-badge)
 ![Keras](https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white)
 
 ### 🔥 Specializations
@@ -96,6 +99,11 @@ print(me.expertise())
 <img src="https://img.icons8.com/fluency/96/000000/robot-2.png" width="50"/>
 <br><b>ML Pipelines</b>
 </td>
+
+<td align="center" width="120">
+<img src="https://img.icons8.com/color/96/000000/api.png" width="50"/>
+<br><b>MCP Integration</b>
+</td>
 </tr>
 </table>
 
@@ -114,12 +122,13 @@ mindmap
     LLM Projects
       RAG Systems
       Prompt Engineering
-      Using MCP
+      MCP Servers
     ML Applications
       Predictive Models
       Neural Networks
       Data Pipelines
     Research
+      Model Context Protocol
 ```
 
 </div>
@@ -131,9 +140,11 @@ mindmap
 <td width="50%">
 
 #### 📚 Learning Journey
+- ### 🧩 Advanced AI & Full-Stack Capabilities
 
 - 🧠 Advanced **LangGraph architectures**  
 - ⚡ Production-grade **RAG optimization**  
+- 🔌 **Model Context Protocol (MCP)** for AI tool integration  
 - 🔬 Deep dive into **Transformer model internals**  
 - 🎨 **Prompt engineering** mastery  
 - 🐳 **MLOps** & deployment strategies  
@@ -147,9 +158,10 @@ mindmap
 #### 🔨 Building Next
 - 🤖 **Intelligent RAG system** with multi-modal retrieval
 - 💬 **LangGraph agent** for complex workflows
+- 🔌 **MCP Server** for seamless AI tool integration
 - 📊 **ML pipeline** for real-time predictions
 - 🎯 **Custom LLM fine-tuning** framework
-- 🌐 **AI-powered web application**
+- 🌐 **AI-powered web application** with MCP protocol
 
 </td>
 </tr>
@@ -167,15 +179,10 @@ mindmap
 <img width="98%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=hihihi-svg&theme=github_dark" />
 
 <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=hihihi-svg&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=58A6FF&text_color=c9d1d9" />
+<img width="49%" src="https://github-readme-stats.vercel.app/api/wakatime?username=hihihi-svg&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=58A6FF&text_color=c9d1d9&layout=compact" />
 
 </div>
 
-## 🐍 Watch my contributions get eaten by a snake!
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/hihihi-svg/hihihi-svg/main/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/hihihi-svg/hihihi-svg/main/output/github-contribution-grid-snake.svg">
-  <img alt="Snake animation" src="https://raw.githubusercontent.com/hihihi-svg/hihihi-svg/main/output/github-contribution-grid-snake.svg">
-</picture>
 ---
 
 ## 🏆 Achievement Vault
@@ -195,7 +202,7 @@ mindmap
 <tr>
 <td align="center">🤖</td>
 <td><b>AI/ML Specialist</b></td>
-<td>TensorFlow • LangChain • RAG Expert</td>
+<td>TensorFlow • LangChain • RAG Expert • MCP Developer</td>
 </tr>
 <tr>
 <td align="center">💡</td>
@@ -252,7 +259,7 @@ I'm always excited to collaborate on **AI/ML projects**, **LLM applications**, a
 
 **💼 Open to:** Research Collaborations • Deep Learning Projects • LLM Consulting • Open Source Contributions
 
-**🌟 Interests:** Large Language Models • Retrieval Augmented Generation • Neural Architecture • AI Agents
+**🌟 Interests:** Large Language Models • Retrieval Augmented Generation • Neural Architecture • AI Agents • Model Context Protocol (MCP)
 
 </div>
 
