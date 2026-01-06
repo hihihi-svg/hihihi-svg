@@ -231,7 +231,7 @@ print(me.expertise())
 
 </div>
 
-## <img src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif" width="50"> Watch my contributions get eaten by a snake!
+## 🐍 Watch my contributions get eaten by a snake!
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/hihihi-svg/hihihi-svg/main/output/github-contribution-grid-snake-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/hihihi-svg/hihihi-svg/main/output/github-contribution-grid-snake.svg">
