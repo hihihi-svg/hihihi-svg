@@ -24,14 +24,15 @@
 class Lalan:
     def __init__(self):
         self.location = "R. V. College of Engineering, Bangalore"
-        self.focus = ["Machine Learning", "LLMs", "RAG Systems"]
+        self.focus = ["Machine Learning", "LLMs", "RAG Systems", "Reinforcement Learning"]
         self.current_mission = "Bridging the gap between AI research and real-world impact"
         
     def expertise(self):
         return {
             "ai_ml": ["TensorFlow", "Scikit-learn", "Deep Learning"],
+            "rl":    ["DQN", "Actor-Critic", "Policy Gradient", "SARSA", "Q-Learning"],
             "llm_stack": ["LangChain", "LangGraph", "RAG Pipelines", "MCP Servers"],
-            "languages": ["Python", "C++", "C", "HTML"],
+            "languages": ["Python", "C++", "C", "JavaScript", "SQL"],
             "protocols": ["Model Context Protocol (MCP)"],
             "mindset": "Ship fast, iterate faster"
         }
@@ -65,13 +66,15 @@ print(me.expertise())
 ![LangChain](https://img.shields.io/badge/🦜_LangChain-121212?style=for-the-badge)
 ![LangGraph](https://img.shields.io/badge/🕸️_LangGraph-2C2C2C?style=for-the-badge)
 ![MCP](https://img.shields.io/badge/🔌_MCP-4A90E2?style=for-the-badge)
+![RL](https://img.shields.io/badge/🎮_Reinforcement_Learning-1a1a2e?style=for-the-badge)
 
 ### ⚡ Specializations
 
-| 🤖 LLM Engineering | 📚 RAG Systems | 🧠 Neural Networks | 🔄 ML Pipelines | 🔌 MCP Integration |
-|:---:|:---:|:---:|:---:|:---:|
-| Prompt Engineering | Vector Search | CNNs / RNNs | Data Preprocessing | Tool Integration |
-| Fine-tuning | Context Retrieval | LSTMs / GRUs | Feature Engineering | Agentic Workflows |
+| 🤖 LLM Engineering | 📚 RAG Systems | 🧠 Neural Networks | 🔄 ML Pipelines | 🎮 Reinforcement Learning | 🔌 MCP Integration |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| Prompt Engineering | Vector Search | CNNs / RNNs | Data Preprocessing | Q-Learning / SARSA | Tool Integration |
+| Fine-tuning | Context Retrieval | LSTMs / GRUs | Feature Engineering | DQN / Double Q | Agentic Workflows |
+| Context Engineering | Hybrid Search | Actor-Critic | Model Evaluation | Policy Gradient | Tool Integration |
 
 </div>
 
@@ -99,6 +102,7 @@ print(me.expertise())
 | 🔌 **MCP** | Seamless AI tool integration protocols |
 | 🧠 **Transformers** | Deep dive into model internals |
 | ✨ **Prompt Engineering** | Mastery of LLM communication |
+| 🎮 **Reinforcement Learning** | TD Learning, DQN, Policy Gradient, Actor-Critic (A2C) |
 | ☁️ **MLOps** | Deployment on AWS, Render, Hugging Face |
 | ⚛️ **Full-Stack** | React + Flask for AI apps |
 | 🔧 **CI/CD** | Docker & GitHub Actions workflows |
@@ -148,6 +152,7 @@ print(me.expertise())
 |:---:|---|---|
 | 🎓 | **Academic Excellence** | 8.6 CGPA in First Year |
 | 🤖 | **AI/ML Specialist** | TensorFlow • LangChain • RAG Expert • MCP Developer |
+| 🎮 | **RL Practitioner** | DQN • Actor-Critic • Policy Gradient • TD Methods • from scratch |
 | 💡 | **Problem Solver** | Turning complex challenges into elegant code |
 | 📈 | **Continuous Learner** | Always exploring the bleeding edge of AI |
 
@@ -189,7 +194,7 @@ I'm always excited to collaborate on **AI/ML projects**, **LLM applications**, a
 
 **💼 Open to:** Research Collaborations • Deep Learning Projects • LLM Consulting • Open Source Contributions
 
-**🌟 Interests:** Large Language Models • Retrieval Augmented Generation • Neural Architecture • AI Agents • Model Context Protocol (MCP)
+**🌟 Interests:** Large Language Models • Retrieval Augmented Generation • Neural Architecture • AI Agents • Reinforcement Learning • Model Context Protocol (MCP)
 
 *"Building the future, one commit at a time"* 🚀
 
