@@ -29,10 +29,11 @@ class Lalan:
         
     def expertise(self):
         return {
-            "ai_ml": ["TensorFlow", "Scikit-learn", "Deep Learning"],
-            "rl":    ["DQN", "Actor-Critic", "Policy Gradient", "SARSA", "Q-Learning"],
-            "llm_stack": ["LangChain", "LangGraph", "RAG Pipelines", "MCP Servers"],
-            "languages": ["Python", "C++", "C", "JavaScript", "SQL"],
+            "ai_ml": ["TensorFlow", "Keras", "Scikit-learn", "Deep Learning", "PyTorch"],
+            "rl":    ["A2C", "A3C", "DDQN", "DQN", "Actor-Critic", "Policy Gradient", "SARSA", "Q-Learning"],
+            "llm_stack": ["LangChain", "LangGraph", "RAG Pipelines", "MCP Servers", "ChromaDB", "FAISS"],
+            "languages": ["Python", "Java", "C", "JavaScript", "SQL"],
+            "vision": ["Stable Diffusion", "ControlNet", "DeepFace"],
             "protocols": ["Model Context Protocol (MCP)"],
             "mindset": "Ship fast, iterate faster"
         }
@@ -52,7 +53,7 @@ print(me.expertise())
 
 ### 💻 Core Languages
 ![Python](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue)
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black)
 ![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
@@ -61,6 +62,7 @@ print(me.expertise())
 
 ### 🤖 AI/ML Stack
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
 ![Keras](https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white)
 ![LangChain](https://img.shields.io/badge/🦜_LangChain-121212?style=for-the-badge)
@@ -70,30 +72,33 @@ print(me.expertise())
 
 ### ⚡ Specializations
 
-| 🤖 LLM Engineering | 📚 RAG Systems | 🧠 Neural Networks | 🔄 ML Pipelines | 🎮 Reinforcement Learning | 🔌 MCP Integration |
+| 🤖 LLM Engineering | 📚 RAG Systems | 🧠 Neural Networks | 🎮 Reinforcement Learning | 👁️ Computer Vision | 🔌 MCP Integration |
 |:---:|:---:|:---:|:---:|:---:|:---:|
-| Prompt Engineering | Vector Search | CNNs / RNNs | Data Preprocessing | Q-Learning / SARSA | Tool Integration |
-| Fine-tuning | Context Retrieval | LSTMs / GRUs | Feature Engineering | DQN / Double Q | Agentic Workflows |
-| Context Engineering | Hybrid Search | Actor-Critic | Model Evaluation | Policy Gradient | Tool Integration |
+| Prompt Engineering | ChromaDB / FAISS | CNNs / RNNs | A2C / A3C / DDQN | Stable Diffusion | Tool Integration |
+| Context Engineering | Semantic Retrieval | LSTMs / GRUs | Policy Gradient | ControlNet | Agentic Workflows |
+| LangGraph Pipelines | Hybrid Search | Actor-Critic | Q-Learning / SARSA | DeepFace / Facenet | MCP Servers |
 
 </div>
 
 ---
 
-## 🚀 What I'm Building
+## 🚀 Featured Projects
 
-<div align="center">
+### 🎮 [GTACCS — Game-Theoretic Adaptive Congestion Control](https://gtaccss.vercel.app/)
+> Built a game-theoretic network simulator with **3 congestion-control strategies**, **6 traffic presets**, and live Nash Equilibrium detection. Implemented **A2C, A3C, and DDQN from scratch** in vanilla JavaScript (custom neural engine with He initialization + backpropagation), improving fairness by **12.7%** and throughput by **14.8%** over Nash baselines.
+> `React.js` `JavaScript (ES6+)` `RL (A2C/A3C/DDQN)` `Game Theory` `Recharts`
 
-| 🤖 LLM Projects | ⚡ ML Applications | 🔬 Research | 🌐 Web Development |
-|:---:|:---:|:---:|:---:|
-| 📚 RAG Systems | 📊 Predictive Models | 📖 Model Context Protocol | ⚛️ React Applications |
-| ✨ Prompt Engineering | 🧬 Neural Networks | 🚀 AI Optimization | 🐍 Flask APIs |
-| 🔌 MCP Servers | 🔄 Data Pipelines | 💡 Novel Architectures | ☁️ Cloud Deployment |
-| 🧠 Fine-tuning | 🎯 Computer Vision | 🔍 Performance Analysis | 🔧 Full-Stack Apps |
+### 🔍 [Hackathon Idea Generator](https://hihihi-svg-hackathon-idea-generator-final-app-fqavmv.streamlit.app/)
+> End-to-end RAG pipeline ingesting **200+ real SIH problem statements** into **ChromaDB** using `all-MiniLM-L6-v2` embeddings. 4-stage LangGraph pipeline: summarize via `gpt-4o-mini` → retrieve from ChromaDB → find resources → generate 5 ideas via `gpt-4o` (temp=0.8). Supports hackathon ideas, PPT drafts, and literature reviews.
+> `LangChain` `LangGraph` `ChromaDB` `GPT-4o` `all-MiniLM-L6-v2` `Streamlit`
 
-</div>
+### 🕵️ [AI-Powered Forensic Tool — Suspect Image Identification](https://github.com/hihihi-svg/AI-Powered-Forensic-Tool)
+> 4-stage forensic pipeline: speech input via Google Speech API → sketch generation using **Stable Diffusion v1.5 + ControlNet (OpenPose)** → face embedding via **DeepFace/Facenet** → top-K similarity search on a **4,000-image FAISS index**. FastAPI backend with PyTorch/CUDA inference.
+> `Stable Diffusion` `ControlNet` `DeepFace` `FAISS` `FastAPI` `PyTorch` `speech_recognition`
 
-### 📖 Learning Journey
+---
+
+## 📖 Learning Journey
 
 | Area | Topics |
 |------|--------|
@@ -102,21 +107,10 @@ print(me.expertise())
 | 🔌 **MCP** | Seamless AI tool integration protocols |
 | 🧠 **Transformers** | Deep dive into model internals |
 | ✨ **Prompt Engineering** | Mastery of LLM communication |
-| 🎮 **Reinforcement Learning** | TD Learning, DQN, Policy Gradient, Actor-Critic (A2C) |
+| 🎮 **Reinforcement Learning** | A2C, A3C, DDQN from scratch, Policy Gradient, Actor-Critic |
 | ☁️ **MLOps** | Deployment on AWS, Render, Hugging Face |
-| ⚛️ **Full-Stack** | React + Flask for AI apps |
+| ⚛️ **Full-Stack** | React + Node.js + Firebase for AI apps |
 | 🔧 **CI/CD** | Docker & GitHub Actions workflows |
-
-### 🔨 Building Next
-
-| Project | Description |
-|---------|-------------|
-| 🤖 **Intelligent RAG System** | Multi-modal retrieval with advanced indexing |
-| 🕸️ **LangGraph Agent** | Complex workflow orchestration |
-| 🔌 **MCP Server** | Seamless AI tool integration |
-| 🔄 **ML Pipeline** | Real-time predictions at scale |
-| 🧠 **LLM Fine-tuning Framework** | Custom model adaptation |
-| 🌐 **AI-powered Web App** | Full-stack app with MCP protocol |
 
 ---
 
@@ -150,9 +144,10 @@ print(me.expertise())
 
 | Badge | Title | Details |
 |:---:|---|---|
-| 🎓 | **Academic Excellence** | 8.6 CGPA in First Year |
-| 🤖 | **AI/ML Specialist** | TensorFlow • LangChain • RAG Expert • MCP Developer |
-| 🎮 | **RL Practitioner** | DQN • Actor-Critic • Policy Gradient • TD Methods • from scratch |
+| 🎓 | **Academic Excellence** | 8.54 CGPA @ RVCE |
+| 🤖 | **AI/ML Specialist** | TensorFlow • PyTorch • LangChain • RAG • MCP |
+| 🎮 | **RL Practitioner** | A2C • A3C • DDQN • Policy Gradient • from scratch in JS |
+| 👁️ | **Vision AI** | Stable Diffusion • ControlNet • DeepFace • FAISS |
 | 💡 | **Problem Solver** | Turning complex challenges into elegant code |
 | 📈 | **Continuous Learner** | Always exploring the bleeding edge of AI |
 
@@ -194,7 +189,7 @@ I'm always excited to collaborate on **AI/ML projects**, **LLM applications**, a
 
 **💼 Open to:** Research Collaborations • Deep Learning Projects • LLM Consulting • Open Source Contributions
 
-**🌟 Interests:** Large Language Models • Retrieval Augmented Generation • Neural Architecture • AI Agents • Reinforcement Learning • Model Context Protocol (MCP)
+**🌟 Interests:** Large Language Models • RAG • Neural Architecture • AI Agents • Reinforcement Learning • Computer Vision • MCP
 
 *"Building the future, one commit at a time"* 🚀
 
